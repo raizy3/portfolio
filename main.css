@@ -170,6 +170,21 @@ footer a{
     font-size: 12px;
 }
 
+@media screen and (min-width:750px){
+    .hide-nav-link{
+        display:flex;
+    }
+
+    .hide-button{
+        display: none;
+    }
+  
+    .nav-collapse{
+        top:30px;
+        left: 40%;
+    }
+}
+
 
 
 
