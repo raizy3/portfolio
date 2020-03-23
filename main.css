@@ -88,12 +88,12 @@ h1{
     background-color: #8C3A77;
     color:#FFFFFF;
     height: 40px;
-    border-radius: 3px;
+    border-radius: 5px;
     font-family: Muli, sans-serif;
 }
 
 section{
-    min-height:600px;
+    min-height:500px;
     padding: 6%;
 }
 .screenshot{
@@ -119,12 +119,12 @@ section{
     margin-block-start: 0;
     padding: 0;
 }
-#portfolio li{
+#portfolio a{
     width: 10%;
 }
 
 .app-icon{
-    width:75%;
+    width:50%;
 }
 
 #portfolio p{
@@ -132,11 +132,12 @@ section{
     margin-top: 5px;
     font-size: 18px;
 }
-
 .folio-links li{
-    color:#8C3A77;
-    text-decoration: none;
     margin-left: 25%;
+}
+.folio-links a{
+    color: #757E9E;
+    text-decoration: none;
     font-weight: bold;
 }
 
@@ -144,7 +145,7 @@ section{
     height: auto;
 }
 
-#bio img{
+#headshot{
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -154,9 +155,31 @@ section{
     display: block;
 }
 
-#bio p{
-    margin-top: 25%;
-    font-size: 16px;
+#bio p{    font-size: 13px;
+    margin-top: 10%;
+    margin-bottom:0;
+
+}
+
+#contact-links{
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    margin: 0;
+    margin-block-start: 0;
+    padding: 0;
+    margin-bottom:5%;
+
+}
+
+#contact-links li{
+    width: 10%;
+    margin-left: 10%;
+}
+
+#contact-links img{
+    width: 30px;
+    height: 30px;
 }
 
 footer{
@@ -164,6 +187,7 @@ footer{
     min-height: 25px;
     padding: 1% 2%;
     text-align: left;
+    margin-top:-5%;
 }
 
 footer a{
@@ -171,6 +195,13 @@ footer a{
 }
 
 @media screen and (min-width:750px){
+
+    nav{
+        height: 60px;
+        padding-bottom: 5px;
+        padding-top: 20px;
+    }
+   
     .hide-nav-link{
         display:flex;
     }
@@ -180,10 +211,151 @@ footer a{
     }
   
     .nav-collapse{
-        top:30px;
-        left: 40%;
+        position: relative;
+        left: -50px;
+        top: -2px;
+        padding-right: 5%;
+       
     }
-}
+
+    header{
+        margin-top: 5%;
+        padding-top: 5%;
+    }
+
+    h1{
+        font-size: 42px;
+    }
+
+    .hero{
+        font-size: 20px;
+    }
+
+    .hero-email{
+        margin-top: 10%;
+        margin-left: 70%;
+    }
+
+    #portfolio h2{
+        display: none;
+    }
+
+    .screenshot{
+        margin-top: 10%;
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .folio-deets{
+        margin-top: 3%;
+        margin-left: 17%
+    }
+
+    #portfolio h3{
+        margin-top: 3%;
+    }
+
+    #portfolio ul{
+        width: 50%;
+    }
+
+    #portfolio p{
+        font-size: 16px;
+    }
+
+
+    .folio-links li{
+        margin-left:0;
+        margin-right: 30%;
+    }
+
+    .folio-links a{
+        font-size:21px;
+    }
+
+    #bio{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #bio p{
+        width:400px;
+        font-size: 16px;
+        margin-top: 3%;
+    }
+
+    #headshot{
+        margin-left: 0;
+    }
+
+    #contact-links li{
+        margin-right: 60%;
+    }
+
+}   
+
+    @media screen and (min-width:1000px){
+        nav a{
+            font-size: 32px;
+        }
+
+        .nav-collapse a{
+            font-size: 26px;
+        }
+        .screenshot{
+            width: 50%;
+        }
+
+        .folio-deets{
+            margin-left:25%;
+
+        }
+
+        #portfolio a{
+            font-size: 18px;
+        }
+
+        #headshot{
+            margin-right:0;
+            width: 225px;
+            height: 225px;
+         }
+
+         #bio>*{
+             margin-right: 15%;
+         }
+
+         .contact-links{
+             margin-top: 2%;
+         }
+
+         @media screen and (min-width:1440px){
+
+            nav{
+                padding-top: 1%;
+            }
+
+            #bio{
+                padding-top: 4%;
+            }
+             #headshot{
+             
+                width: 300px;
+                height: 300px;
+                margin-left: 10%;
+             }
+
+             .contact-links{
+                 margin-left: 1%;
+             }
+         }
+
+        
+    }
+
+
 
 
 
