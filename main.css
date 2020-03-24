@@ -337,7 +337,7 @@ footer a{
         
     }
 
-    @media screen and (min-width:1440px){
+    @media screen and (min-width:1320px){
 
         nav{
             padding-top: 1%;
@@ -351,15 +351,16 @@ footer a{
          
             width: 325px;
             height: 325px;
-            margin-left: 10%;
+            margin-left:0%;
          }
 
          #bio p{
              font-size: 20px;
+             margin-left: 8%;
          }
 
-         .contact-links{
-             margin-left: 2%;
+         #contact-links{
+             margin-left: 5%;
          }
         }
 
