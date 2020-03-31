@@ -4,12 +4,31 @@
     font-size: 17px;
     line-height: 1.5;
     color: #3A3D47;
+    scroll-behavior: smooth;
 }
 
 h1, h2, h3{
     font-family: Philosopher, sans-serif;
     color: #002652;
 }
+
+.hero-email:hover, .hero-email:focus{
+    background-color: #48568a;
+    color: #FFFFFF;
+    box-shadow: 0 2px 16px rgba(38, 73, 75, 0.45);
+
+}
+
+a:hover, a:focus{
+    color: #48568a;
+    transform: translateY(-3px);
+  
+}
+
+.folio-links a:hover, .folio-links a:focus{
+    color: #8C3A77;
+}
+
 
 
 nav{
@@ -29,21 +48,26 @@ nav{
 }
 .nav-collapse{
     position: absolute;
-    top: 30px;
-    left: 20%;
+    top: 45px;
     display: flex;
     width: 50%;
+    left: 0;
     
 }
 
 .hide-nav-link{
-    display: none;
+    display:none;
+}
+
+.navbar-link{
+    background-color: white;
 }
 
 .nav-collapse li{
     color: #8C3A77;
     list-style-type: none;
     margin-left: 30%;
+
 
    
 }
@@ -69,7 +93,7 @@ header{
     padding: 15% 20%;
     text-align: left;
     height:100vh;
-    min-height:600px;
+    min-height:450px;
     margin-top: 25%;
 }
 h1{
@@ -81,15 +105,26 @@ h1{
 }
 
 .hero-email{
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 50px;
     font-size: 19px;
     margin-top: 20%;
-    width: 120px;
-    margin-left: 40%;
+    margin-left: 30%;
     background-color: #8C3A77;
     color:#FFFFFF;
-    height: 40px;
     border-radius: 5px;
     font-family: Muli, sans-serif;
+    -moz-box-shadow:    4px 2px 2px 0px #ccc;
+    -webkit-box-shadow: 4px 2px 2px 0px #ccc;
+    box-shadow:         4px 2px 2px 0px #ccc;
+    transition: all ease-in-out 0.2s;
+   
+
+    width: 150px;
+    display: block;
 }
 
 section{
@@ -136,9 +171,10 @@ section{
     margin-left: 25%;
 }
 .folio-links a{
-    color: #757E9E;
+    color: #48568a;
     text-decoration: none;
     font-weight: bold;
+    transition: all ease-in-out 0.2s;
 }
 
 #bio{
@@ -174,13 +210,14 @@ section{
 
 #contact-links li{
     width: 10%;
-    margin-left: 10%;
+    margin-left: 17%;
 }
 
 #contact-links img{
     width: 30px;
     height: 30px;
 }
+
 
 footer{
     font-size: 12px;
@@ -232,8 +269,10 @@ footer a{
     }
 
     .hero-email{
+      
         margin-top: 10%;
         margin-left: 70%;
+        
     }
 
     #portfolio h2{
@@ -359,8 +398,11 @@ footer a{
              margin-left: 8%;
          }
 
-         #contact-links{
-             margin-left: 5%;
+        
+
+         #contact-links img{
+             width: 50px;
+             height: 50px;
          }
         }
 
