@@ -231,7 +231,7 @@ footer a{
     font-size: 12px;
 }
 
-@media screen and (min-width:750px){
+@media screen and (min-width:768px){
 
     nav{
         height: 60px;
@@ -328,6 +328,9 @@ footer a{
     #headshot{
         margin-left: 0;
     }
+    #contact-links{
+        margin-right: 35%;
+    }
 
     #contact-links li{
         margin-right: 60%;
@@ -335,7 +338,7 @@ footer a{
 
 }   
 
-    @media screen and (min-width:1000px){
+    @media screen and (min-width:1024px){
         nav a{
             font-size: 32px;
         }
@@ -376,7 +379,7 @@ footer a{
         
     }
 
-    @media screen and (min-width:1320px){
+    @media screen and (min-width:1440px){
 
         nav{
             padding-top: 1%;
