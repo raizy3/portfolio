@@ -92,8 +92,7 @@ nav a{
 header{
     padding: 15% 20%;
     text-align: left;
-    height:100vh;
-    min-height:450px;
+    min-height:500px;
     margin-top: 25%;
 }
 h1{
