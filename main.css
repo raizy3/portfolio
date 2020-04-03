@@ -204,6 +204,7 @@ section{
     margin-block-start: 0;
     padding: 0;
     margin-bottom:5%;
+    margin-top:10%
 
 }
 
@@ -326,6 +327,7 @@ footer a{
 
     #headshot{
         margin-left: 0;
+        margin-right: 10%;
     }
     #contact-links{
         margin-right: 35%;
@@ -372,13 +374,19 @@ footer a{
              margin-top: 2%;
          }
 
+         #bio p{
+             width: 500px;
+             margin-right: 0;
+         }
+         
+
          
         
 
         
     }
 
-    @media screen and (min-width:1440px){
+    @media screen and (min-width:1320px){
 
         nav{
             padding-top: 1%;
@@ -390,9 +398,9 @@ footer a{
         
          #headshot{
          
-            width: 325px;
-            height: 325px;
-            margin-left:0%;
+            width: 400px;
+            height: 400px;
+            margin-right: 0;
          }
 
          #bio p{
@@ -407,6 +415,19 @@ footer a{
              height: 50px;
          }
         }
+
+    @media screen and (min-width:1445px){
+        #headshot{
+            width: 400px;
+            height: 400px;
+            margin-right: 6%;
+        }
+
+        #bio p{
+            width: 600px;
+            margin-right: 0;
+        }
+    }
 
 
 
